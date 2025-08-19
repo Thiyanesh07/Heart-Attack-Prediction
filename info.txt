@@ -1,0 +1,166 @@
+
+* chest pain type
+
+0 --> risk
+
+1 --> borderline
+
+2 --> borderline
+
+3 --> risk
+
+
+
+
+
+
+* cholestrol levels
+
+cholestrol < 200  -->  normal
+between 200 and 239 --> borderline
+cholestrol > 240 --> risk
+
+
+
+
+
+* bp levels
+
+bp < 120 --> normal
+between 120 and 140 --> borderline
+bp > 140 --> risk
+
+
+
+
+
+* fasting blood sugar
+
+0  ( fbs < 120 )  --> normal
+1  ( fbs > 120 )  --> high
+
+
+
+
+
+* thalch ( highest heart rate achieved during exercise)
+
+formula
+
+thalch = 220 - age
+
+85% and above --> good
+
+less than 85% --> risk is based on how lower the thalch is ?
+
+
+
+
+
+* rest ecg (resting electrocardiogram result)
+
+0 --> no abnormalities
+
+1 --> moderate risk ( not getting enough oxygen )
+
+2 --> high risk ( heart failure & heart attack )
+
+
+
+
+
+* exang ( exercise induced angina ) --> is exercise induces heart pain or discomfort
+
+0 --> normal -- lower risk
+
+1 --> high risk ( induces pain ) -- arteries may blocked
+
+
+
+
+
+
+* oldpeak -- ST-segment depression in an ECG reading during exercise (stress test) compared to rest
+
+0.0 --> normal ( no risk )
+
+0.1 to 1.9 --> borderline ( signs of ischemia )  ( ischemia --> reduced blood flow )
+
+above 2.0 --> high risk of heart attack
+
+
+
+
+
+
+* slope -- describes the shape/angle of the ST segment during peak exercise in a stress test ECG
+
+0 --> upsloping ( normal )
+
+1 --> flat ( borderline )
+
+2 --> downsloping ( high )
+
+
+
+
+*  ca (Number of Major Vessels Colored by Fluoroscopy)
+
+ca = how many of the major coronary arteries (0–3) are visible/colored during fluoroscopy (an imaging technique with contrast dye).
+
+This shows blockages in the heart’s major blood vessels.
+
+(3 major coronary arteries )
+
+
+0 --> no vessels blocked ( lower risk )
+
+1 or 2 --> moderate risk
+
+3 --> high risk
+
+
+
+
+
+
+
+* thal ( how blood flows )
+
+
+0 --> no risk
+
+1 --> low risk
+
+2 --> moderate risk
+
+3 --> high risk
+
+
+
+direct cause
+|
+|
+|
+|----High BP (trestbps)
+|
+|----High cholesterol (chol)
+|
+|----Diabetes (fbs)
+|
+|----Blocked vessels (ca)
+|
+|----Abnormal thal result (thal)
+
+
+
+
+indirect cause
+|
+|
+|
+|----Chest pain (cp)
+|
+|----ECG results (restecg, oldpeak, slope)
+|
+|----Exercise response (thalach, exang)
